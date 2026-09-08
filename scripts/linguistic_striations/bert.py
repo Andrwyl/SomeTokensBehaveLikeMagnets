@@ -151,7 +151,7 @@ r_values = []
 for layer in range(bert_model.config.num_hidden_layers):
     r_values.append(pointbiserialr(scores[layer][0], scores[layer][1])[0])
 
-with open("results/bert_correlations.json", "w") as f:
+with open("results/bert.json", "w") as f:
     json.dump(scores, f)
 
 
@@ -159,5 +159,5 @@ plt.plot(np.arange(bert_model.config.num_hidden_layers), r_values)
 plt.xlabel("Layers")
 plt.ylabel("PB Correlation")
 plt.title("Repelling Magnets Track Function Words in Early Layers")
-plt.savefig("results/bert_correlations.pdf")
+plt.savefig("results/bert.pdf")
 
