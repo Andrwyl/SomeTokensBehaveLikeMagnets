@@ -31,7 +31,7 @@ TODO: Explain the individual files when this is filed in
 
 ## Linguistic Striations
 
-`/scripts/linguistic_striations` contains the code to generate the results in Section 4.2, where we find that early magnets create a function/content split, disppaering moving deeper through the model. For example, `bert.py` will output the point biserial correlations at each layer into `results/bert.json` and a graph of those numbers into `results/bert.pdf`. Similar naming conventions for `qwen`, `llama`, `gemma`, and `gpt`. This recreates Figure 4.
+`/scripts/linguistic_striations` contains the code to generate the results in Section 4.2, where we find that early magnets create a function/content split, disappearing moving deeper through the model. For example, `bert.py` will output the point biserial correlations at each layer into `results/bert.json` and a graph of those numbers into `results/bert.pdf`. Similar naming conventions for `qwen`, `llama`, `gemma`, and `gpt`. This recreates Figure 4.
 
 ## BERT and Downstream Tasks
 
