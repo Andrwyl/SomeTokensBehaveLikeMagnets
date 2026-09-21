@@ -3,7 +3,7 @@ This repository provides the code for our paper Some Tokens Behave like Magnets:
 
 **Links**:
 
-To Be Added
+[Paper](https://arxiv.org/abs/2609.05743)
 
 **Abstract**:
 
