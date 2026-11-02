@@ -55,6 +55,25 @@ TODO
 
 ## Citation
 
-To be Added
-
+```bibtex
+@inproceedings{liu-etal-2026-tokens-behave,
+    title = "Some Tokens Behave like Magnets: Revealing Linguistic Organization in the Layers of Language Models",
+    author = "Liu, Andrew  and
+      Srinivasan, Devan  and
+      Penn, Gerald",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.690/",
+    doi = "10.18653/2026.emnlp-main.690",
+    pages = "15867--15886",
+    ISBN = "979-8-89176-459-0",
+}
+```
 
